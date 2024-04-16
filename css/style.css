@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Red-color: #ea5353;
+  --Cyan-color: #45d3d3;
+  --Orange-color: #fcaf4a;
+  --Blue-color: #549ef2;
+  --Grayish-color: #a3a5ae;
+  --DarkBlue-color: #4c4e61;
+  --Light-Gray-color: #fafafa;
+  --White-color: #fff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background-color: var(--Light-Gray-color);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  margin-top: 4rem;
+  padding: 0px 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  
+}
+
+.introduction-content {
+     width: 312px;
+     
+    
+    
+}
+
+.grayText1 {
+  color: var(--DarkBlue-color);
+  font-weight: 300;
+}
+h1 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #4c4e61;
+}
+
+.grayishText {
+  color: var(--Grayish-color);
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.box{
+    background-color: var(--White-color);
+    margin-bottom: 2rem;
+    width: 300px;
+    padding-left: 20px;
+    border-radius: 5px;
+    
+   
+}
+.supervisor{
+    border-top: 4px solid var(--Cyan-color);
+}
+
+.team{
+    border-top: 4px solid var(--Red-color);
+}
+
+.karma{
+    border-top: 4px solid var(--Orange-color);
+}
+
+.calculator{
+    border-top: 4px solid var(--Blue-color);
+}
+.features-Text-Heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+
+
+
+img{
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.grayText{
+    color: var(--Grayish-color);
+    
+}
+
+@media screen and (min-width:868px){
+    
+.container {
+  margin-top: 4rem;
+  padding: 0px 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.introduction-content {
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    
+}
+.heading{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 120px;
+}
+
+.grayText1 {
+  color: var(--DarkBlue-color);
+  font-weight: 300;
+  font-size: 2rem;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4c4e61;
+}
+
+.features-content{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.grayishText {
+  color: var(--Grayish-color);
+  font-weight: 300;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.box{
+    background-color: var(--White-color);
+    margin-bottom: 2rem;
+    width: 300px;
+    padding-left: 20px;
+    border-radius: 5px;
+    
+   
+}
+.supervisor{
+    border-top: 4px solid var(--Cyan-color);
+    height: 250px;
+    margin-top: 120px;
+}
+
+.team{
+    border-top: 4px solid var(--Red-color);
+}
+
+.karma{
+    border-top: 4px solid var(--Orange-color);
+}
+
+.calculator{
+    border-top: 4px solid var(--Blue-color);
+    height: 250px;
+    margin-top: 120px;
+}
+.features-Text-Heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+
+
+
+img{
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.grayText{
+    color: var(--Grayish-color);
+    
+}
+}
